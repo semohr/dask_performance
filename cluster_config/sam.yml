@@ -1,0 +1,30 @@
+# rudabeh delegating to parallel queue on zal
+jobqueue:
+  sge:
+    name: "dask_test"
+    # cores, mem and processes are counted __per job submitted to the queue__, thus we should not use anything else than 32.
+    # to then request more cores, use `cluster.scale(n=xx)`
+    # or the `n_workers` argument to `SGECluster()` constructor
+    cores: 32
+    memory: "192GB"
+    # in almost all cases processes = cores is the way to go.
+    processes: 32
+
+    shebang: "#!/usr/bin/env zsh"
+    # Number of seconds to wait if a worker can not find a scheduler
+    death-timeout: 180
+    # Location of fast local storage like /scratch or $TMPDIR
+    local-directory: "/scratch03.local/smohr/dask/scratch"
+    # Log directory for workers
+    log-directory: "/scratch03.local/smohr/dask/logs"
+    # Network interface
+    interface: ib0
+    # max alive time for workers. jobs should not exceed this.
+    walltime: 02:30:00
+    # this is how we specify the queue on zal
+    job_extra_directives: ["-pe mvapich2-sam 32"]
+    # env-extra: []
+    # queue: null
+    # project: null
+    # resource-spec: null
+    # scheduler-options: {}

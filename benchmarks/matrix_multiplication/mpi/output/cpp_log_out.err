@@ -1,0 +1,5 @@
+matrix_multi.cpp: In function ‘int main(int, char**)’:
+matrix_multi.cpp:158:32: warning: ‘start_time’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             cout << end_time - start_time << endl;
+                                ^~~~~~~~~~
+/core/UGE2011.11p1/LMP/spool/sam050/job_scripts/7132954: line 24: ../data/times_mpi_1000.txt: No such file or directory

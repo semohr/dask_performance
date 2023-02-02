@@ -1,0 +1,83 @@
+/core/UGE2011.11p1/LMP/spool/sam093/job_scripts/7143805: line 19: ../data/times_mkl_trials-1000000_parallel-32.txt: No such file or directory
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+[proxy:0:0@sam098.lmp.ds.mpg.de] HYD_spawn (../../../../../src/pm/i_hydra/libhydra/spawn/intel/hydra_spawn.c:117): execvp error on file ./matrix_multiplication (No such file or directory)
+Connection to sam045 closed by remote host.
+Connection to sam107 closed by remote host.
+Connection to sam003 closed by remote host.
+Connection to sam124 closed by remote host.
+Connection to sam096 closed by remote host.
+Connection to sam094 closed by remote host.
+Connection to sam039 closed by remote host.
+Connection to sam093 closed by remote host.
+Connection to sam043 closed by remote host.
+Connection to sam102 closed by remote host.
+Connection to sam050 closed by remote host.
+Connection to sam126 closed by remote host.
+Connection to sam016 closed by remote host.
+Connection to sam119 closed by remote host.
+Connection to sam037 closed by remote host.
+Connection to sam099 closed by remote host.
+Connection to sam115 closed by remote host.
+Connection to sam021 closed by remote host.
+Connection to sam120 closed by remote host.
+Connection to sam051 closed by remote host.
+Connection to sam085 closed by remote host.
+Connection to sam102 closed by remote host.
+Connection to sam122 closed by remote host.
+Connection to sam087 closed by remote host.
+Connection to sam045 closed by remote host.
+Connection to sam056 closed by remote host.
+Connection to sam001 closed by remote host.
+Connection to sam089 closed by remote host.
+Connection to sam054 closed by remote host.
+Connection to sam035 closed by remote host.
+Connection to sam038 closed by remote host.
+Connection to sam051 closed by remote host.
+Connection to sam039 closed by remote host.
+Connection to sam078 closed by remote host.
+Connection to sam057 closed by remote host.
+Connection to sam120 closed by remote host.
+Connection to sam075 closed by remote host.
+Connection to sam087 closed by remote host.
+Connection to sam122 closed by remote host.
+Connection to sam104 closed by remote host.
+Connection to sam045 closed by remote host.
+Connection to sam119 closed by remote host.
+Connection to sam124 closed by remote host.
+Connection to sam110 closed by remote host.
+Connection to sam126 closed by remote host.
+Connection to sam094 closed by remote host.
+Connection to sam127 closed by remote host.
+Connection to sam089 closed by remote host.
+Connection to sam056 closed by remote host.
+Connection to sam086 closed by remote host.
+Connection to sam001 closed by remote host.

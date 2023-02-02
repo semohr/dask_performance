@@ -1,0 +1,48 @@
+Traceback (most recent call last):
+  File "/home/smohr/Repositories/dask_performance/benchmarks/matrix_multiplication/np/./matrix_multiplication.py", line 14, in <module>
+    id = int(sys.argv[3])
+ValueError: invalid literal for int() with base 10: 'undefined'
+Traceback (most recent call last):
+  File "/home/smohr/Repositories/dask_performance/benchmarks/matrix_multiplication/np/./matrix_multiplication.py", line 14, in <module>
+    id = int(sys.argv[3])
+ValueError: invalid literal for int() with base 10: 'undefined'
+Traceback (most recent call last):
+  File "/home/smohr/Repositories/dask_performance/benchmarks/matrix_multiplication/np/./matrix_multiplication.py", line 14, in <module>
+    id = int(sys.argv[3])
+ValueError: invalid literal for int() with base 10: 'undefined'
+Traceback (most recent call last):
+  File "/home/smohr/Repositories/dask_performance/benchmarks/matrix_multiplication/np/./matrix_multiplication.py", line 14, in <module>
+    id = int(sys.argv[3])
+ValueError: invalid literal for int() with base 10: 'undefined'
+Traceback (most recent call last):
+  File "/home/smohr/Repositories/dask_performance/benchmarks/matrix_multiplication/np/./matrix_multiplication.py", line 25, in <module>
+    print(end - start)
+OSError: [Errno 116] Stale file handle
+Traceback (most recent call last):
+  File "/home/smohr/Repositories/dask_performance/benchmarks/matrix_multiplication/np/./matrix_multiplication.py", line 19, in <module>
+    a = np.random.random((size, size),dtype=np.float64)
+  File "mtrand.pyx", line 438, in numpy.random.mtrand.RandomState.random
+TypeError: random() got an unexpected keyword argument 'dtype'
+Traceback (most recent call last):
+  File "/home/smohr/Repositories/dask_performance/benchmarks/matrix_multiplication/np/./matrix_multiplication.py", line 19, in <module>
+    a = np.random.random((size, size),dtype=np.float64)
+  File "mtrand.pyx", line 438, in numpy.random.mtrand.RandomState.random
+TypeError: random() got an unexpected keyword argument 'dtype'
+Traceback (most recent call last):
+  File "/home/smohr/Repositories/dask_performance/benchmarks/matrix_multiplication/np/./matrix_multiplication.py", line 19, in <module>
+    a = np.random.random((size, size),dtype=np.float64)
+  File "mtrand.pyx", line 438, in numpy.random.mtrand.RandomState.random
+TypeError: random() got an unexpected keyword argument 'dtype'
+Traceback (most recent call last):
+  File "/home/smohr/Repositories/dask_performance/benchmarks/matrix_multiplication/np/./matrix_multiplication.py", line 19, in <module>
+    a = np.random.random((size, size),dtype=np.float64)
+  File "mtrand.pyx", line 438, in numpy.random.mtrand.RandomState.random
+TypeError: random() got an unexpected keyword argument 'dtype'
+Traceback (most recent call last):
+  File "/home/smohr/Repositories/dask_performance/benchmarks/matrix_multiplication/np/./matrix_multiplication.py", line 25, in <module>
+    print(end - start)
+OSError: [Errno 116] Stale file handle
+Traceback (most recent call last):
+  File "/home/smohr/Repositories/dask_performance/benchmarks/matrix_multiplication/np/./matrix_multiplication.py", line 25, in <module>
+    print(end - start)
+OSError: [Errno 116] Stale file handle

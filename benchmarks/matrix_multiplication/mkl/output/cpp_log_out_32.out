@@ -1,0 +1,53 @@
+
+sam003
+
+
+-----> checking login on node sam003
+
+sam003.lmp.ds.mpg.de
+
+SSH password free login works on all nodes
+
+-catch_rsh /core/UGE2011.11p1/LMP/spool/sam003/active_jobs/7155631.1/pe_hostfile
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+sam003
+smohr
+===========================
+Run
+===========================
+
+sam003
+
+
+-----> skipping master node sam003
+

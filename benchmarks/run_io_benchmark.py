@@ -5,36 +5,75 @@ from time import sleep
 """
 if __name__ == "__main__":
 
-    parallels = [32, 64, 96, 128, 160, 192, 224, 256, 288, 320]
+    parallels = [32, 64, 96, 128, 160, 192, 224, 256, 288]
 
     # Run dask
     for parallel in parallels:
+
+        """ Writer
         """
+
+        # CPP
+        p = subprocess.Popen(
+            [
+                "python3",
+                "./io_operations/r_cpp_writer.py",
+                str(parallel),
+            ]
+        )
+        p.wait()
+        sleep(70)
+        print("Finished writer cpp for parallel {}".format(parallel))
+
+
+        # Dask
         out = open(
-            "./io_operations/data/times_dask_parallel-{}.txt".format(parallel),
+            "./io_operations/data/writer_dask_parallel-{}.txt".format(parallel),
             "a+",
         )
         p = subprocess.Popen(
             [
                 "python3",
-                "./io_operations/r_dask.py",
+                "./io_operations/r_dask_writer.py",
                 str(parallel),
             ],
             stdout=out,
         )
         p.wait()
-        sleep(120)
-        print("Finished dask for parallel {}".format(parallel))
+        sleep(70)
+        print("Finished writer dask for parallel {}".format(parallel))
+
+
+        """ Reader
         """
 
-        # Run mpi
+        # CPP
         p = subprocess.Popen(
             [
                 "python3",
-                "./io_operations/r_cpp.py",
+                "./io_operations/r_cpp_reader.py",
                 str(parallel),
             ]
         )
         p.wait()
-        sleep(120)
+        sleep(60)
         print("Finished mpi for parallel {}".format(parallel))
+
+
+        # Dask
+        out = open(
+            "./io_operations/data/reader_dask_parallel-{}.txt".format(parallel),
+            "a+",
+        )
+        p = subprocess.Popen(
+            [
+                "python3",
+                "./io_operations/r_dask_reader.py",
+                str(parallel),
+            ],
+            stdout=out,
+        )
+        p.wait()
+        sleep(60)
+        print("Finished dask for parallel {}".format(parallel))
+

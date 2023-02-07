@@ -1,0 +1,245 @@
+/core/UGE2011.11p1/LMP/spool/sam040/job_scripts/7156792: line 21: ../data/writer_dask_parallel-288.txt: No such file or directory
+rm: cannot remove ‘/scratch03.local/smohr/dask/orc/*.orc’: No such file or directory
+Task exception was never retrieved
+future: <Task finished name='Task-45' coro=<_wrap_awaitable() done, defined at /data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py:115> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nqsub /tmp/7156793.1.mvapich2-sam.q/tmp5xysmk0i.sh\nstdout:\n\nstderr:\nUnable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.\nExiting.\n\n')>
+Traceback (most recent call last):
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 116, in _wrap_awaitable
+    return await aw
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 65, in _
+    await self.start()
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 411, in start
+    out = await self._submit_job(fn)
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 394, in _submit_job
+    return self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 489, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+qsub /tmp/7156793.1.mvapich2-sam.q/tmp5xysmk0i.sh
+stdout:
+
+stderr:
+Unable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.
+Exiting.
+
+
+Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<_wrap_awaitable() done, defined at /data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py:115> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nqsub /tmp/7156793.1.mvapich2-sam.q/tmpt6414p3b.sh\nstdout:\n\nstderr:\nUnable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.\nExiting.\n\n')>
+Traceback (most recent call last):
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 116, in _wrap_awaitable
+    return await aw
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 65, in _
+    await self.start()
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 411, in start
+    out = await self._submit_job(fn)
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 394, in _submit_job
+    return self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 489, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+qsub /tmp/7156793.1.mvapich2-sam.q/tmpt6414p3b.sh
+stdout:
+
+stderr:
+Unable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.
+Exiting.
+
+
+Task exception was never retrieved
+future: <Task finished name='Task-52' coro=<_wrap_awaitable() done, defined at /data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py:115> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nqsub /tmp/7156793.1.mvapich2-sam.q/tmpm5ee119a.sh\nstdout:\n\nstderr:\nUnable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.\nExiting.\n\n')>
+Traceback (most recent call last):
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 116, in _wrap_awaitable
+    return await aw
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 65, in _
+    await self.start()
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 411, in start
+    out = await self._submit_job(fn)
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 394, in _submit_job
+    return self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 489, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+qsub /tmp/7156793.1.mvapich2-sam.q/tmpm5ee119a.sh
+stdout:
+
+stderr:
+Unable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.
+Exiting.
+
+
+Task exception was never retrieved
+future: <Task finished name='Task-46' coro=<_wrap_awaitable() done, defined at /data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py:115> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nqsub /tmp/7156793.1.mvapich2-sam.q/tmp9x15s6r9.sh\nstdout:\n\nstderr:\nUnable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.\nExiting.\n\n')>
+Traceback (most recent call last):
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 116, in _wrap_awaitable
+    return await aw
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 65, in _
+    await self.start()
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 411, in start
+    out = await self._submit_job(fn)
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 394, in _submit_job
+    return self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 489, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+qsub /tmp/7156793.1.mvapich2-sam.q/tmp9x15s6r9.sh
+stdout:
+
+stderr:
+Unable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.
+Exiting.
+
+
+Task exception was never retrieved
+future: <Task finished name='Task-50' coro=<_wrap_awaitable() done, defined at /data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py:115> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nqsub /tmp/7156793.1.mvapich2-sam.q/tmpphm0b50j.sh\nstdout:\n\nstderr:\nUnable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.\nExiting.\n\n')>
+Traceback (most recent call last):
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 116, in _wrap_awaitable
+    return await aw
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 65, in _
+    await self.start()
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 411, in start
+    out = await self._submit_job(fn)
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 394, in _submit_job
+    return self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 489, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+qsub /tmp/7156793.1.mvapich2-sam.q/tmpphm0b50j.sh
+stdout:
+
+stderr:
+Unable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.
+Exiting.
+
+
+Task exception was never retrieved
+future: <Task finished name='Task-48' coro=<_wrap_awaitable() done, defined at /data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py:115> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nqsub /tmp/7156793.1.mvapich2-sam.q/tmp6xjw99m0.sh\nstdout:\n\nstderr:\nUnable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.\nExiting.\n\n')>
+Traceback (most recent call last):
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 116, in _wrap_awaitable
+    return await aw
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 65, in _
+    await self.start()
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 411, in start
+    out = await self._submit_job(fn)
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 394, in _submit_job
+    return self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 489, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+qsub /tmp/7156793.1.mvapich2-sam.q/tmp6xjw99m0.sh
+stdout:
+
+stderr:
+Unable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.
+Exiting.
+
+
+Task exception was never retrieved
+future: <Task finished name='Task-53' coro=<_wrap_awaitable() done, defined at /data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py:115> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nqsub /tmp/7156793.1.mvapich2-sam.q/tmpafpq9zf6.sh\nstdout:\n\nstderr:\nUnable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.\nExiting.\n\n')>
+Traceback (most recent call last):
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 116, in _wrap_awaitable
+    return await aw
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 65, in _
+    await self.start()
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 411, in start
+    out = await self._submit_job(fn)
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 394, in _submit_job
+    return self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 489, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+qsub /tmp/7156793.1.mvapich2-sam.q/tmpafpq9zf6.sh
+stdout:
+
+stderr:
+Unable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.
+Exiting.
+
+
+Task exception was never retrieved
+future: <Task finished name='Task-51' coro=<_wrap_awaitable() done, defined at /data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py:115> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nqsub /tmp/7156793.1.mvapich2-sam.q/tmpj7hxevui.sh\nstdout:\n\nstderr:\nUnable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.\nExiting.\n\n')>
+Traceback (most recent call last):
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 116, in _wrap_awaitable
+    return await aw
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 65, in _
+    await self.start()
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 411, in start
+    out = await self._submit_job(fn)
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 394, in _submit_job
+    return self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 489, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+qsub /tmp/7156793.1.mvapich2-sam.q/tmpj7hxevui.sh
+stdout:
+
+stderr:
+Unable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.
+Exiting.
+
+
+Task exception was never retrieved
+future: <Task finished name='Task-49' coro=<_wrap_awaitable() done, defined at /data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py:115> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nqsub /tmp/7156793.1.mvapich2-sam.q/tmp962mp2iu.sh\nstdout:\n\nstderr:\nUnable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.\nExiting.\n\n')>
+Traceback (most recent call last):
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 116, in _wrap_awaitable
+    return await aw
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 65, in _
+    await self.start()
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 411, in start
+    out = await self._submit_job(fn)
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 394, in _submit_job
+    return self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 489, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+qsub /tmp/7156793.1.mvapich2-sam.q/tmp962mp2iu.sh
+stdout:
+
+stderr:
+Unable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.
+Exiting.
+
+
+2023-02-05 21:17:37,546 - tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x2ad7aec22fa0>>, <Task finished name='Task-44' coro=<SpecCluster._correct_state_internal() done, defined at /data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py:341> exception=RuntimeError('Command exited with non-zero exit code.\nExit code: 1\nCommand:\nqsub /tmp/7156793.1.mvapich2-sam.q/tmp3ryoljwe.sh\nstdout:\n\nstderr:\nUnable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.\nExiting.\n\n')>)
+Traceback (most recent call last):
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 382, in _correct_state_internal
+    await w  # for tornado gen.coroutine support
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/distributed/deploy/spec.py", line 65, in _
+    await self.start()
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 411, in start
+    out = await self._submit_job(fn)
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 394, in _submit_job
+    return self._call(shlex.split(self.submit_command) + [script_filename])
+  File "/data.nst/smohr/anaconda3/envs/dask/lib/python3.9/site-packages/dask_jobqueue/core.py", line 489, in _call
+    raise RuntimeError(
+RuntimeError: Command exited with non-zero exit code.
+Exit code: 1
+Command:
+qsub /tmp/7156793.1.mvapich2-sam.q/tmp3ryoljwe.sh
+stdout:
+
+stderr:
+Unable to run job: denied: host "sam066.lmp.ds.mpg.de" is no submit host.
+Exiting.
+
+

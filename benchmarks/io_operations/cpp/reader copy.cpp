@@ -112,7 +112,7 @@ int main(int argc, char *argv[])
 
     if (rank == 0)
     {
-        std::cout << t << std::endl;
+        std::cout << max_time << std::endl;
     }
 
     // Finalize the MPI environment.
